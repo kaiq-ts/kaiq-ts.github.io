@@ -1,6 +1,27 @@
-@import url(./global.css);
-@import url(./header.css);
-@import url(./introducao.css);
-@import url(./experiencia.css);
-@import url(./formacao.css);
-@import url(./footer.css);
+:root {
+  --green-500: #22c55e;
+  --slate-800: #1e293b;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
