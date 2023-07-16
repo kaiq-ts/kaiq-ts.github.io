@@ -1,0 +1,44 @@
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 0;
+  color: #101614;
+  margin-bottom: 1000px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  color: #e8fff7;
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 70%;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+    color: #e8fff7;
+  }
+}

@@ -1,0 +1,308 @@
+.formacao {
+  max-width: 1200px;
+  padding: 40px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.formacao h2::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url(../Imagens/Icons/Detalhe.svg) no-repeat center;
+  position: absolute;
+  top: -28px;
+  left: -60px;
+  z-index: -1;
+}
+
+.formacao-titulo {
+  color: #101614;
+  margin: 60px 0px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  position: relative;
+}
+
+
+.formacao-conteudo {
+  color: #2d423b;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.33;
+  max-width: 40%;
+  margin-bottom: 60px;
+  position: relative;
+  top: -100px;
+}
+
+.formacoes {
+  position: absolute;
+  top: 500px;
+  left: 38.5px;
+}
+
+.titulo-curso {
+  color: #2d423b;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.livro {
+  position: absolute;
+  top: 9px;
+  left: 108px;
+}
+
+.formacao-cursos {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0px;
+}
+
+.formacao-cursos li {
+  width: 150px;
+  height: 150px;
+  background-color: #101614;
+  background-size: cover;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.titulo-idioma {
+  color: #2d423b;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+.letras {
+  position: absolute;
+  top: 320px;
+  left: 125px;
+}
+
+.idiomas {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0px;
+}
+
+.idiomas li {
+  width: 150px;
+  height: 150px;
+  background-color: #101614;
+  background-size: cover;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.intensivo {
+  color: #43967a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.categoria {
+  color: #5aedbb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.localhora {
+  color: #43967a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.nivel {
+  color: #43967a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.bolinha2 {
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+
+@media (max-width: 800px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .formacao-conteudo {
+    font-size: 1.25rem;
+    padding-top: 120px;
+  }
+  .formacoes {
+    padding-top: 40px;
+  }
+  .livro {
+    padding-top: 40px;
+  }
+  .formacao-cursos {
+    position: relative;
+    top: -20px;
+  }
+  .back {
+    position: relative;
+    top: 10px;
+  }
+  .HTML {
+    position: relative;
+    top: 10px;
+  }
+  .letras {
+    position: relative;
+    top: -32px;
+  }
+  .ingles {
+    position: relative;
+    top: -50px;
+  }
+  .japones {
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .formacao-titulo {
+    font-size: 48px;
+  }
+  .formacao h2::before {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: url(../Imagens/Icons/Detalhe.svg) no-repeat center;
+    position: absolute;
+    top: -24px;
+    left: -45px;
+  }
+  .formacao-conteudo {
+    font-size: 1.25rem;
+    padding-top: 190px;
+  }
+  .formacoes {
+    padding-top: 130px;
+  }
+  .livro {
+    padding-top: 130px;
+  }
+  .formacao-cursos {
+    position: relative;
+    top: -20px;
+  }
+  .back {
+    position: relative;
+    top: 10px;
+  }
+  .HTML {
+    position: relative;
+    top: 10px;
+  }
+  .letras {
+    position: relative;
+    top: -32px;
+  }
+  .ingles {
+    position: relative;
+    top: -50px;
+  }
+  .japones {
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .formacao-titulo {
+    font-size: 36px;
+  }
+  .formacao h2::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(../Imagens/Icons/Detalhe.svg) no-repeat center;
+    position: absolute;
+    top: -15px;
+    left: -38px;
+  }
+  .formacao-conteudo {
+    font-size: 1.25rem;
+    padding-top: 745px;
+  }
+  .formacoes {
+    padding-top: 740px;
+  }
+  .livro {
+    position: relative;
+    top: -162px;
+  }
+  .formacao-cursos {
+    position: relative;
+    top: -180px;
+  }
+  .front {
+    position: relative;
+    top: 10px;
+  }
+  .back {
+    position: relative;
+    top: 20px;
+  }
+  .HTML {
+    position: relative;
+    top: 30px;
+  }
+  .titulo-idioma {
+    position: relative;
+    top: -150px;
+  }
+  .letras {
+    position: relative;
+    top: -183px;
+  }
+  .ingles {
+    position: relative;
+    top: -205px;
+  }
+  .japones {
+    position: relative;
+    top: -195px;
+  }
+}
