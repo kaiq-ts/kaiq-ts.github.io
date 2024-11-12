@@ -1,9 +1,12 @@
 .introduction {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
   margin-top: 88px;
-  padding: 0 10%;
+  width: 100%;
+  gap: 54px;
 }
 
 .introduction__title {

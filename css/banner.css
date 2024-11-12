@@ -11,7 +11,7 @@
   font-weight: bold;
   color: var(--color-grey);
   padding: 36px 0;
-  animation: scrollBanner 25s linear infinite;
+  animation: scrollBanner 20s linear infinite;
 }
 
 .banner__tag {
@@ -24,15 +24,15 @@
 }
 
 @keyframes scrollBanner {
-  0% {
-    transform: translateX(100%);
+  50% {
+    transform: translateX(-10%);
   }
 
-  50% {
-    transform: translateX(-100%);
+  0% {
+    transform: translateX(10%);
   }
 
   100% {
-    transform: translateX(100%);
+    transform: translateX(10%);
   }
 }
