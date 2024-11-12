@@ -1,0 +1,28 @@
+.about {
+  text-align: center;
+}
+
+.about__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  gap: 64px;
+}
+
+.about__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+
+.about__text {
+  font-size: 1.125rem;
+  color: var(--color-dark-grey);
+}
+
+.about__text--highlight {
+  font-weight: bold;
+}

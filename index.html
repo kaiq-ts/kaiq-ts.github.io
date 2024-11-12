@@ -1,19 +1,227 @@
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@Kaiq TS /</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 
 <body>
-  <header>
-    <div class="marca">Kaiq TS /</div>
+  <header class="header">
+    <a class="header__mark" href="/">Kaiq TS <span class="header__bar-mark">/</span></a>
+    <nav class="header__nav-menu">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a class="header__nav-link" href="#about">Sobre</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#experience">Experiência</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#formation">Formação</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#projects">Projetos</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#contact">Contato</a></li>
+      </ul>
+    </nav>
   </header>
+
+  <section class="introduction">
+    <img class="introduction__profile-pic" src="./img/perfil-1.webp"
+      alt="Foto de perfil de um homem jovem com cabelo curto e expressão neutra, usando camiseta rosa claro, com fundo claro.">
+    <div class="introduction__content">
+      <h1 class="introduction__title">Oi, Sou Kaiq<mark class="introduction__point">.</mark><br><em
+          class="introduction__title-em">Desenvolvedor Web.</em></h1>
+      <div class="introduction__tech-icons">
+        <i class="devicon-html5-plain"></i>
+        <i class="devicon-css3-plain"></i>
+        <i class="devicon-figma-plain"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-git-plain"></i>
+      </div>
+    </div>
+  </section>
+
+  <div class="banner">
+    <div class="banner__content">
+      <span class="banner__tag">WEB</span>
+      <span class="banner__bar">/</span>
+      <span class="banner__tag">PROGRAMAÇÃO</span>
+      <span class="banner__bar">/</span>
+      <span class="banner__tag">JAVASCRIPT</span>
+      <span class="banner__bar">/</span>
+      <span class="banner__tag">DESENVOLVIMENTO</span>
+      <span class="banner__bar">/</span>
+      <span class="banner__tag">FIGMA</span>
+      <span class="banner__bar">/</span>
+      <span class="banner__tag">GIT</span>
+      <span class="banner__bar">/</span>
+      <span class="banner__tag">CSS</span>
+      <span class="banner__bar">/</span>
+      <span class="banner__tag">HTML</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="about" id="about">
+      <h1 class="about__title title">Sobre<mark class="introduction__point">.</mark></h1>
+      <div class="about__content">
+        <img class="about__profile-pic" src="./img/perfil-2.webp"
+          alt="Foto de perfil de um homem jovem com cabelo curto, usando moletom cinza, olhando para o lado com a mão no queixo, sentado em uma cafeteria com decoração de parede com desenhos de xícaras.">
+        <div class="about__text-wrapper">
+          <p class="about__text">
+            <strong class="about__text--highlight">Desenvolvedor Web</strong> em transição de carreira para a área de
+            tecnologia.
+          </p>
+          <p class="about__text">Atualmente, meu foco é aprender e dominar habilidades essenciais para desenvolvimento
+            web. Tenho uma base sólida em <strong class="about__text--highlight">HTML</strong>, <strong
+              class="about__text--highlight">CSS</strong>, <strong class="about__text--highlight">JAVASCRIPT</strong> e
+            <strong class="about__text--highlight">GIT</strong>.
+          </p>
+          <p class="about__text">Busco uma posição onde possa desenvolver e aplicar minhas habilidades, aprendendo com
+            profissionais
+            experientes e contribuindo para evoluir na carreira tech.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h1 class="experience__title title">Experiência<mark class="introduction__point">.</mark></h1>
+      <div class="experience__list">
+        <div class="experience__item">
+          <div class="experience__header">
+            <span class="experience__company-time">Jun 2023 - Ago 2024</span>
+            <h3 class="experience__company">Preparador de Tintas | Siegwerk</h3>
+            <a class="experience__arrow-link" href="https://www.siegwerk.com/en/inks-coatings/coatings.html"
+              target="_blank" rel="noopener noreferrer"><img src="./img/north_east_arrow.svg"
+                alt="Ícone de seta apontando para o nordeste"></a>
+          </div>
+          <p class="experience__description">Eu preparava tintas para impressão de embalagens plásticas. A empresa
+            Siegwerk presta serviços ao Grupo
+            Copobras, que fábrica sacos plásticos de ração. Dentro da fábrica, não só produzia tintas, como mantinha o
+            setor organizado e resolvia os mais diversos problemas com relação a produção das tintas, incluindo dar
+            treinamento a novos novatos.</p>
+        </div>
+        <div class="experience__item">
+          <div class="experience__header">
+            <span class="experience__company-time">Jun 2022 - Dez 2022</span>
+            <h3 class="experience__company">Supervisor | IBGE</h3>
+            <a class="experience__arrow-link" href="https://www.ibge.gov.br/pt/inicio.html" target="_blank"
+              rel="noopener noreferrer"><img src="./img/north_east_arrow.svg"
+                alt="Ícone de seta apontando para o nordeste"></a>
+          </div>
+          <p class="experience__description">Neste contrato de trabalho, eu fui responsável pela coleta de dados do
+            Censo Demográfico de 2022,
+            realizado pelo Instituto Brasileiro de Geografia e Estátisca. Nessa função, eu realizava as contratações
+            e liderança dos entrevistadores, resolvia os mais diversos problemas encontrados durante a coleta e
+            reportava os dados coletados.</p>
+        </div>
+        <div class="experience__item">
+          <div class="experience__header">
+            <span class="experience__company-time">Ago 2019 - Dez 2020</span>
+            <h3 class="experience__company">Jovem Aprendiz | Copobras</h3>
+            <a class="experience__arrow-link" href="https://www.grupocopobras.com.br/" target="_blank"
+              rel="noopener noreferrer"><img src="./img/north_east_arrow.svg"
+                alt="Ícone de seta apontando para o nordeste"></a>
+          </div>
+          <p class="experience__description">Fui jovem aprendiz do setor administrativo da manutenção do Grupo Copobras.
+            Lá, fazia compras e cobranças de peças para as máquinas, e também, atualizava inúmeras planilhas com
+            informçãos da manutenção e troca de peças de todas as máquinas da empresa, além de auxiliar com muitas
+            outras atividades relacionadas principalmente ao escritório.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="formation" id="formation">
+      <h1 class="formation__title title">Formação<mark class="introduction__point">.</mark></h1>
+      <div class="formation__courses">
+        <div class="formation__course">
+          <img class="formation__tech-logo" src="./img/logo-figma.svg" alt="Icone da ferramenta Figma">
+          <h3 class="formation__course-title">UI/UX Design</h3>
+          <div class="formation__course-information">
+            <p class="formation__course-name">Orgamid</p>
+            <p class="formation__course-hours">17 horas</p>
+          </div>
+        </div>
+        <div class="formation__course">
+          <img class="formation__tech-logo" src="./img/logo-html5.svg" alt="Icone da tecnologia HTML">
+          <img class="formation__tech-logo" src="./img/logo-css3.svg" alt="Icone da tecnologia CSS">
+          <h3 class="formation__course-title">HTML & CSS</h3>
+          <div class="formation__course-information">
+            <p class="formation__course-name">Orgamid</p>
+            <p class="formation__course-hours">23 horas</p>
+          </div>
+        </div>
+        <div class="formation__course">
+          <img class="formation__tech-logo" src="./img/logo-css3.svg" alt="Icone da tecnologia CSS FlexBox">
+          <h3 class="formation__course-title">CSS FlexBox</h3>
+          <div class="formation__course-information">
+            <p class="formation__course-name">Orgamid</p>
+            <p class="formation__course-hours">3 horas</p>
+          </div>
+        </div>
+        <div class="formation__course">
+          <img class="formation__tech-logo" src="./img/logo-css3.svg" alt="Icone da tecnologia CSS GridLayout">
+          <h3 class="formation__course-title">CSS GridLayout</h3>
+          <div class="formation__course-information">
+            <p class="formation__course-name">Orgamid</p>
+            <p class="formation__course-hours">5 horas</p>
+          </div>
+        </div>
+        <div class="formation__course">
+          <img class="formation__tech-logo" src="./img/logo-javascript.svg" alt="Icone da tecnologia JavaScript">
+          <h3 class="formation__course-title">JavaScript</h3>
+          <div class="formation__course-information">
+            <p class="formation__course-name">Orgamid</p>
+            <p class="formation__course-hours">37 horas</p>
+          </div>
+        </div>
+        <div class="formation__course">
+          <img class="formation__tech-logo" src="./img/logo-html5.svg" alt="Icone da tecnologia HTML">
+          <img class="formation__tech-logo" src="./img/logo-css3.svg" alt="Icone da tecnologia CSS">
+          <img class="formation__tech-logo" src="./img/logo-javascript.svg" alt="Icone da tecnologia JavaScript">
+          <h3 class="formation__course-title">Aprenda a Programar com HTML, CSS & JS</h3>
+          <div class="formation__course-information">
+            <p class="formation__course-name">Rodrigo Branas</p>
+            <p class="formation__course-hours">12 horas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <h1 class="footer__title title">Contato<mark class="introduction__point">.</mark></h1>
+    <div class="footer__content">
+      <div class="footer__contact">
+        <p class="footer__email">kaiqt.souza@gmail.com</p>
+        <p class="footer__phone">+55 (48) 9 9920-2701</p>
+        <p class="footer__perfil">@kaiq-ts</p>
+      </div>
+      <div class="footer__contact-information">
+        <p class="footer__text">Disponível para qualquer vaga de trabalho e projetos, entre em contato para termos
+          aquela conversa esperta. 😉</p>
+        <div class="footer__tech-logo">
+          <a class="footer__logo" href="https://www.linkedin.com/in/kaiq-torres-de-souza/" target="_blank"
+            rel="noopener noreferrer"><i class="devicon-linkedin-plain"></i></a>
+          <a class="footer__logo" href="https://github.com/kaiq-ts" target="_blank" rel="noopener noreferrer"><i
+              class="devicon-github-original"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="footer__copy">Kaiq Torres de Souza | ©2024 to ∞</p>
+  </footer>
+
+  <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
+  <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+  <script>
+    const lenis = new Lenis({ autoRaf: true });
+  </script>
+  <script src="./script.js"></script>
+
 </body>
 
 </html>

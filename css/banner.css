@@ -1,0 +1,38 @@
+.banner {
+  margin-top: 88px;
+  background: var(--color-dark-bg);
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.banner__content {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-grey);
+  padding: 36px 0;
+  animation: scrollBanner 25s linear infinite;
+}
+
+.banner__tag {
+  display: inline-block;
+  padding: 0 36px;
+}
+
+.banner__bar {
+  color: var(--color-green);
+}
+
+@keyframes scrollBanner {
+  0% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}

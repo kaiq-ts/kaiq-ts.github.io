@@ -1,0 +1,39 @@
+.experience__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 100%;
+    max-width: 80ch;
+}
+
+.experience__item {
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.experience__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 20px;
+}
+
+.experience__company-time {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--color-dark-grey);
+}
+
+.experience__company {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-dark-bg);
+}
+
+.experience__description {
+    font-size: 1rem;
+    color: var(--color-dark-grey);
+    margin-left: 154px;
+}

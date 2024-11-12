@@ -1,0 +1,30 @@
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 88px;
+  padding: 0 10%;
+}
+
+.introduction__title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--color-dark-bg);
+}
+
+
+.introduction__title-em {
+  color: var(--color-dark-grey);
+}
+
+.introduction__point {
+  color: var(--color-green);
+}
+
+.introduction__tech-icons {
+  display: flex;
+  gap: 24px;
+  font-size: 2rem;
+  color: var(--color-dark-bg);
+  margin-top: 24px;
+}

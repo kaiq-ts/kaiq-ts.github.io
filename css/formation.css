@@ -1,0 +1,51 @@
+.formation__courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 45px;
+  margin-top: 64px;
+}
+
+.formation__course {
+  position: relative;
+  padding: 32px;
+  background: var(--color-dark-bg);
+  border-radius: var(--border-radius);
+}
+
+.formation__tech-logo {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 50px;
+  height: 50px;
+}
+
+.formation__tech-logo:nth-child(2) {
+  left: 60px;
+}
+
+.formation__tech-logo:nth-child(3) {
+  left: 90px;
+}
+
+.formation__course-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-white);
+  margin-top: 72px;
+}
+
+.formation__course-information {
+  margin-top: 24px;
+}
+
+.formation__course-name {
+  font-size: 1.123rem;
+  font-weight: 600;
+  color: var(--color-light-grey);
+}
+
+.formation__course-hours {
+  font-size: 1rem;
+  color: var(--color-light-grey);
+}
