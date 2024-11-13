@@ -10,7 +10,7 @@
 }
 
 .introduction__title {
-  font-size: 4rem;
+  font-size: var(--font-size-title);
   font-weight: bold;
   color: var(--color-dark-bg);
 }
@@ -26,8 +26,24 @@
 
 .introduction__tech-icons {
   display: flex;
-  gap: 24px;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+  gap: clamp(12px, 5vw, 24px);
   color: var(--color-dark-bg);
-  margin-top: 24px;
+  margin-top: clamp(12px, 5vw, 24px);
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .introduction__profile-pic {
+    width: 140px;
+    height: 140px;
+  }
+
+  .introduction__tech-icons {
+    justify-content: center;
+  }
 }

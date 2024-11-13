@@ -29,6 +29,9 @@ html.lenis body {
   --color-light-grey: #cbd5e1;
   --color-grey: #94a3b8;
   --color-green: #22c55e;
+  --font-size-title: clamp(2.5rem, 5vw + 1rem, 4rem);
+  --font-size-subtitle: clamp(1.25rem, 3vw + 0.5rem, 2rem);
+  --font-size-body: clamp(1rem, 2.5vw + 0.25rem, 1.125rem);
 }
 
 * {
@@ -44,6 +47,7 @@ main {
   flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
+  padding: 0 5%;
 }
 
 footer {
@@ -51,7 +55,7 @@ footer {
   flex-direction: column;
   padding: 0 10%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 a {
@@ -61,6 +65,7 @@ a {
 
 p {
   line-height: 160%;
+  font-size: var(--font-size-body);
 }
 
 mark {
@@ -76,6 +81,11 @@ mark {
   font-weight: bold;
   color: var(--color-dark-bg);
   margin-top: 128px;
+}
+
+.title {
+  font-size: var(--font-size-title);
+  margin-top: clamp(64px, 10vw, 128px);
 }
 
 .back-to-top {
@@ -102,4 +112,25 @@ mark {
 
 .back-to-top:hover {
   background: var(--color-green);
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    width: 30px;
+    height: 70px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .back-to-top {
+    width: 25px;
+    height: 60px;
+    bottom: 15px;
+    right: 15px;
+    font-size: 1.25rem;
+  }
 }
