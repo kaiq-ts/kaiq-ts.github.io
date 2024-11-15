@@ -18,8 +18,11 @@
 <body>
   <header class="header">
     <a class="header__mark" href="/">Kaiq TS <span class="header__bar-mark">/</span></a>
-    <nav class="header__nav-menu">
-      <ul class="header__nav-list">
+    <nav class="header__nav-menu" id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul class="header__nav-list" id="menu" role="menu">
         <li class="header__nav-item"><a class="header__nav-link" href="#about">Sobre</a></li>
         <li class="header__nav-item"><a class="header__nav-link" href="#experience">Experiência</a></li>
         <li class="header__nav-item"><a class="header__nav-link" href="#formation">Formação</a></li>
@@ -198,7 +201,8 @@
         <div class="formation__course">
           <i class="devicon-html5-plain formation__icon formation__icon-html"></i>
           <i class="devicon-css3-plain formation__icon formation__icon-css formation__icon-superimpose"></i>
-          <i class="devicon-javascript-plain formation__icon formation__icon-javascript formation__icon-superimpose"></i>
+          <i
+            class="devicon-javascript-plain formation__icon formation__icon-javascript formation__icon-superimpose"></i>
           <h3 class="formation__course-title">Aprenda a Programar com HTML, CSS & JS</h3>
           <div class="formation__course-information">
             <p class="formation__course-name">Rodrigo Branas</p>
