@@ -11,7 +11,7 @@
   font-weight: bold;
   color: var(--color-grey);
   padding: 36px 0;
-  animation: scrollBanner 40s linear infinite;
+  animation: scrollBanner 10s linear infinite;
 }
 
 .banner__tag {
@@ -25,34 +25,20 @@
 
 @keyframes scrollBanner {
   0% {
-    transform: translateX(100%);
+    transform: translateX(200%);
   }
 
-  50% {
-    transform: translateX(-220%);
+  0% {
+    transform: translateX(-200%);
   }
 
   100% {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
 }
 
 @media (max-width: 768px) {
-  @keyframes scrollBanner {
-    0% {
-      transform: translateX(100%);
-    }
-
-    50% {
-      transform: translateX(-1000%);
-    }
-
-    100% {
-      transform: translateX(100%);
-    }
-  }
-
   .banner__content {
-    animation: scrollBanner 60s linear infinite;
+    animation-duration: 4s;
   }
 }
