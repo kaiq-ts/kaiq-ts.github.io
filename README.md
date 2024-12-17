@@ -12,11 +12,10 @@
 
 <p align="center">
      <a href="PROJECT__URL">📱< Check out this project</a>
+     <a href="https://www.figma.com/design/3HgFAeImct3eYxCPe4ySuF/portfolio?node-id=5-395&p=f&t=mIyK0bOOkm81b3rn-0" target="_blank" rel="noopener noreferrer">🎨 FIGMA</a>
 </p>
 
-<a href="https://www.figma.com/design/3HgFAeImct3eYxCPe4ySuF/portfolio?node-id=5-395&p=f&t=mIyK0bOOkm81b3rn-0" target="_blank" rel="noopener noreferrer">
 <h2 id="layout">🎨 Layout</h2>
-</a>
 
 <p align="center">
     <img src=".github/images/preview.jpg" alt="" width="400px">
