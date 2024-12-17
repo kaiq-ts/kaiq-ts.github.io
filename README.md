@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-     <a href="PROJECT__URL">📱< Check out this project</a>
+     <a href="https://kaiq-ts.github.io/">📱< Check out this project</a>
 </p>
 
 <p align="center">
