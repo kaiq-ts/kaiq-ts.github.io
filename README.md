@@ -24,8 +24,6 @@
     <img src=".github/images/preview.jpg" alt="" width="400px">
 </p>
 
-<h2 id="technologies">💻 Technologies</h2>
+## Tech Stack
 
-- HTML
-- CSS
-- JAVASCRIPT
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
