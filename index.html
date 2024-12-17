@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@Kaiq TS /</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,32 +12,41 @@
     href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
-  <header class="header">
-    <a class="header__mark" href="/">Kaiq TS <span class="header__bar-mark">/</span></a>
-    <nav class="header__nav-menu" id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-        <span id="hamburger"></span>
-      </button>
-      <ul class="header__nav-list" id="menu" role="menu">
-        <li class="header__nav-item"><a class="header__nav-link" href="#about">Sobre</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="#experience">Experiência</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="#formation">Formação</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="#projects">Projetos</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="#contact">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section class="introduction">
-    <img class="introduction__profile-pic" src="./img/perfil-1.webp"
-      alt="Foto de perfil de um homem jovem com cabelo curto e expressão neutra, usando camiseta rosa claro, com fundo claro.">
-    <div class="introduction__content">
-      <h1 class="introduction__title">Oi, Sou Kaiq<mark class="introduction__point">.</mark><br><em
-          class="introduction__title-em">Desenvolvedor Web.</em></h1>
-      <div class="introduction__tech-icons">
+  <nav id="nav">
+    <a class="logo" href="/">Kaiq TS <span class="logo-bar">/</span></a>
+    <menu id="menu">
+      <ul class="menu-list">
+        <li><a class="menu-link" href="#about">About</a></li>
+        <li><a class="menu-link" href="#experience">Experience</a></li>
+        <li><a class="menu-link" href="#formation">Formation</a></li>
+        <li><a class="menu-link" href="#projects">Projects</a></li>
+        <li><a class="menu-link" href="#contact">Contact</a></li>
+      </ul>
+    </menu>
+  </nav>
+
+  <header id="header">
+    <div class="profile">
+      <div class="gradient-bg">
+        <div class="dark-bg">
+          <img class="profile-pic" src="./assets/perfil-1.webp"
+            alt="Profile photo of a young man with short hair and a neutral expression, wearing a light pink T-shirt, with a light background.">
+        </div>
+      </div>
+      <div class="profile-icon">
+        <img src="./assets/profile-icon.svg" alt="HTML tag icon with green angle brackets">
+      </div>
+    </div>
+
+    <div class="introduction">
+      <h1 class="title">Hi, I'm Kaiq<mark class="point">.</mark><br><em class="title">Frontend Dev</em>
+      </h1>
+      <div class="header-icons">
         <i class="devicon-html5-plain"></i>
         <i class="devicon-css3-plain"></i>
         <i class="devicon-figma-plain"></i>
@@ -46,216 +54,263 @@
         <i class="devicon-git-plain"></i>
       </div>
     </div>
-  </section>
+  </header>
 
-  <div class="banner">
-    <div class="banner__content">
-      <span class="banner__tag">WEB</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">PROGRAMAÇÃO</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">JAVASCRIPT</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">DESENVOLVIMENTO</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">FIGMA</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">GIT</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">CSS</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">HTML</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">WEB</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">PROGRAMAÇÃO</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">JAVASCRIPT</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">DESENVOLVIMENTO</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">FIGMA</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">GIT</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">CSS</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">HTML</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">PROGRAMAÇÃO</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">JAVASCRIPT</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">DESENVOLVIMENTO</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">FIGMA</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">GIT</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">CSS</span>
-      <span class="banner__bar">/</span>
-      <span class="banner__tag">HTML</span>
+  <div id="banner">
+    <div class="swiper-container swiper--top">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">HTML</div>
+        <div class="swiper-slide">/</div>
+        <div class="swiper-slide">CSS</div>
+        <div class="swiper-slide">/</div>
+        <div class="swiper-slide">JAVASCRIPT</div>
+        <div class="swiper-slide">/</div>
+        <div class="swiper-slide">FIGMA</div>
+        <div class="swiper-slide">/</div>
+        <div class="swiper-slide">DEVELOPMENT</div>
+        <div class="swiper-slide">/</div>
+        <div class="swiper-slide">PROGRAMMING</div>
+        <div class="swiper-slide">/</div>
+        <div class="swiper-slide">GIT</div>
+        <div class="swiper-slide">/</div>
+        <div class="swiper-slide">WEB</div>
+        <div class="swiper-slide">/</div>
+      </div>
     </div>
   </div>
 
   <main>
-    <section class="about" id="about">
-      <h1 class="about__title title">Sobre<mark class="introduction__point">.</mark></h1>
-      <div class="about__content">
-        <img class="about__profile-pic" src="./img/perfil-2.webp"
-          alt="Foto de perfil de um homem jovem com cabelo curto, usando moletom cinza, olhando para o lado com a mão no queixo, sentado em uma cafeteria com decoração de parede com desenhos de xícaras.">
-        <div class="about__text-wrapper">
-          <p class="about__text">
-            <strong class="about__text--highlight">Desenvolvedor Web</strong> em transição de carreira para a área de
-            tecnologia.
+    <section id="about">
+      <div class="main-titles">
+        <h1 class="title">Sobre<mark class="point">.</mark></h1>
+      </div>
+      <div class="about-content">
+        <img class="about-pic" src="./assets/perfil-2.webp"
+          alt="A profile picture of a young man with short hair, wearing a gray hoodie, looking to the side with his hand on his chin, sitting in a café with wall decorations featuring drawings of cups.">
+        <div class="about-text">
+          <p class="about-paragraph">
+            <strong class="about-highlight">Web Developer</strong> transitioning to a career in technology.
           </p>
-          <p class="about__text">Atualmente, meu foco é aprender e dominar habilidades essenciais para desenvolvimento
-            web. Tenho uma base sólida em <strong class="about__text--highlight">HTML</strong>, <strong
-              class="about__text--highlight">CSS</strong>, <strong class="about__text--highlight">JAVASCRIPT</strong> e
-            <strong class="about__text--highlight">GIT</strong>.
+          <p class="about-paragraph">Currently, my focus is on learning and mastering essential web development skills.
+            I have a solid foundation in <strong class="about-highlight">HTML</strong>, <strong
+              class="about-highlight">CSS</strong>, <strong class="about-highlight">JAVASCRIPT</strong> and
+            <strong class="about-highlight">GIT</strong>.
           </p>
-          <p class="about__text">Busco uma posição onde possa desenvolver e aplicar minhas habilidades, aprendendo com
-            profissionais
-            experientes e contribuindo para evoluir na carreira tech.</p>
+          <p class="about-paragraph">I'm seeking a position where I can develop and apply my skills, learn from
+            experienced professionals, and contribute to advancing my tech career.</p>
+        </div>
+        <div class="icon-bg">
+          <img src="./assets/icon-bg.svg" alt="HTML tag icon with green angle brackets">
         </div>
       </div>
     </section>
 
-    <section class="experience" id="experience">
-      <h1 class="experience__title title">Experiência<mark class="introduction__point">.</mark></h1>
-      <div class="experience__list">
-        <div class="experience__item">
-          <div class="experience__header">
-            <span class="experience__company-time">Jun 2023-Ago 2024</span>
-            <h3 class="experience__company">Preparador de Tintas | Siegwerk</h3>
-            <a class="experience__arrow-link" href="https://www.siegwerk.com/en/inks-coatings/coatings.html"
-              target="_blank" rel="noopener noreferrer"><img src="./img/north_east_arrow.svg"
-                alt="Ícone de seta apontando para o nordeste"></a>
+    <section id="experience">
+      <div class="main-titles">
+        <h1 class="title">Experience<mark class="point">.</mark></h1>
+      </div>
+      <div class="experience-list">
+        <div class="experience-item">
+          <div class="experience-header">
+            <span class="date">Jun 2023-Aug 2024</span>
+            <h3 class="experience-subtitle">Ink Preparer | Siegwerk</h3>
+            <a class="arrow-link" href="https://www.siegwerk.com/en/inks-coatings/coatings.html" target="_blank"
+              rel="noopener noreferrer"><img src="./assets/northeast-arrow.svg"
+                alt="Icon of an arrow pointing to the northeast"></a>
           </div>
-          <p class="experience__description">Eu preparava tintas para impressão de embalagens plásticas. A empresa
-            Siegwerk presta serviços ao Grupo
-            Copobras, que fábrica sacos plásticos de ração. Dentro da fábrica, não só produzia tintas, como mantinha o
-            setor organizado e resolvia os mais diversos problemas com relação a produção das tintas, incluindo dar
-            treinamento a novos novatos.</p>
+          <p class="experience-description">
+            I prepared inks for printing on plastic packaging. The company Siegwerk provides services to Grupo Copobras,
+            which manufactures plastic feed bags. In the factory, not only did I produce paints, but I also kept the
+            department organized and solved various issues related to the paint production, including providing training
+            to new trainees.</p>
         </div>
-        <div class="experience__item">
-          <div class="experience__header">
-            <span class="experience__company-time">Jun 2022-Dez 2022</span>
-            <h3 class="experience__company">Supervisor | IBGE</h3>
-            <a class="experience__arrow-link" href="https://www.ibge.gov.br/pt/inicio.html" target="_blank"
-              rel="noopener noreferrer"><img src="./img/north_east_arrow.svg"
-                alt="Ícone de seta apontando para o nordeste"></a>
+        <div class="experience-item">
+          <div class="experience-header">
+            <span class="date">Jun 2022-Dec 2022</span>
+            <h3 class="experience-subtitle">Supervisor | IBGE</h3>
+            <a class="arrow-link" href="https://www.ibge.gov.br/pt/inicio.html" target="_blank"
+              rel="noopener noreferrer"><img src="./assets/northeast-arrow.svg"
+                alt="Icon of an arrow pointing to the northeast"></a>
           </div>
-          <p class="experience__description">Neste contrato de trabalho, eu fui responsável pela coleta de dados do
-            Censo Demográfico de 2022,
-            realizado pelo Instituto Brasileiro de Geografia e Estátisca. Nessa função, eu realizava as contratações
-            e liderança dos entrevistadores, resolvia os mais diversos problemas encontrados durante a coleta e
-            reportava os dados coletados.</p>
+          <p class="experience-description">In this work contract, I was responsible for the data collection of the
+            2022 Demographic Census, carried out by the Brazilian Institute of Geography and Statistics. In this role, I
+            was responsible for hiring and leading the interviewers, I solved the various problems encountered during
+            data collection and reported the collected data.</p>
         </div>
-        <div class="experience__item">
-          <div class="experience__header">
-            <span class="experience__company-time">Ago 2019-Dez 2020</span>
-            <h3 class="experience__company">Jovem Aprendiz | Copobras</h3>
-            <a class="experience__arrow-link" href="https://www.grupocopobras.com.br/" target="_blank"
-              rel="noopener noreferrer"><img src="./img/north_east_arrow.svg"
-                alt="Ícone de seta apontando para o nordeste"></a>
+        <div class="experience-item">
+          <div class="experience-header">
+            <span class="date">Aug 2019-Dec 2020</span>
+            <h3 class="experience-subtitle">Young Apprentice | Copobras</h3>
+            <a class="arrow-link" href="https://www.grupocopobras.com.br/" target="_blank"
+              rel="noopener noreferrer"><img src="./assets/northeast-arrow.svg"
+                alt="Icon of an arrow pointing to the northeast"></a>
           </div>
-          <p class="experience__description">Fui jovem aprendiz do setor administrativo da manutenção do Grupo Copobras.
-            Lá, fazia compras e cobranças de peças para as máquinas, e também, atualizava inúmeras planilhas com
-            informçãos da manutenção e troca de peças de todas as máquinas da empresa, além de auxiliar com muitas
-            outras atividades relacionadas principalmente ao escritório.</p>
+          <p class="experience-description">I was a young apprentice in the administrative maintenance sector at Grupo
+            Copobras. There, I handled purchasing and billing for machine parts, updated numerous spreadsheets with
+            information about maintenance and part replacement for all the company's machines, and assisted with various
+            other office-related activities.</p>
         </div>
       </div>
     </section>
 
-    <section class="formation" id="formation">
-      <h1 class="formation__title title">Formação<mark class="introduction__point">.</mark></h1>
-      <div class="formation__courses">
-        <div class="formation__course">
-          <i class="devicon-figma-plain formation__icon formation__icon-figma"></i>
-          <h3 class="formation__course-title">UI/UX Design</h3>
-          <div class="formation__course-information">
-            <p class="formation__course-name">Origamid</p>
-            <p class="formation__course-hours">17 horas</p>
+    <section id="formation">
+      <div class="main-titles">
+        <h1 class="title">Formation<mark class="point">.</mark></h1>
+      </div>
+      <div class="courses">
+        <div class="formation-course">
+          <div class="introduction-course">
+            <div class="tech-icons">
+              <i class="devicon-figma-plain formation-icon formation-icon-figma"></i>
+            </div>
+            <h3 class="formation-subtitle">UI/UX Design</h3>
+          </div>
+          <div class="information">
+            <p class="name">Origamid</p>
+            <p class="hours">17 hours</p>
           </div>
         </div>
-        <div class="formation__course">
-          <i class="devicon-html5-plain formation__icon formation__icon-html"></i>
-          <i class="devicon-css3-plain formation__icon formation__icon-css formation__icon-superimpose"></i>
-          <h3 class="formation__course-title">HTML & CSS</h3>
-          <div class="formation__course-information">
-            <p class="formation__course-name">Origamid</p>
-            <p class="formation__course-hours">23 horas</p>
+
+        <div class="formation-course">
+          <div class="introduction-course">
+            <div class="tech-icons">
+              <i class="devicon-html5-plain formation-icon formation-icon-html"></i>
+              <i class="devicon-css3-plain formation-icon formation-icon-css formation-icon-superimpose"></i>
+            </div>
+            <h3 class="formation-subtitle">HTML & CSS</h3>
+          </div>
+          <div class="information">
+            <p class="name">Origamid</p>
+            <p class="hours">23 hours</p>
           </div>
         </div>
-        <div class="formation__course">
-          <i class="devicon-css3-plain formation__icon formation__icon-css"></i>
-          <h3 class="formation__course-title">CSS FlexBox</h3>
-          <div class="formation__course-information">
-            <p class="formation__course-name">Origamid</p>
-            <p class="formation__course-hours">3 horas</p>
+
+        <div class="formation-course">
+          <div class="introduction-course">
+            <div class="tech-icons">
+              <i class="devicon-css3-plain formation-icon formation-icon-css"></i>
+            </div>
+            <h3 class="formation-subtitle">CSS FlexBox</h3>
+          </div>
+          <div class="information">
+            <p class="name">Origamid</p>
+            <p class="hours">3 hours</p>
           </div>
         </div>
-        <div class="formation__course">
-          <i class="devicon-css3-plain formation__icon formation__icon-css"></i>
-          <h3 class="formation__course-title">CSS GridLayout</h3>
-          <div class="formation__course-information">
-            <p class="formation__course-name">Origamid</p>
-            <p class="formation__course-hours">5 horas</p>
+
+        <div class="formation-course">
+          <div class="introduction-course">
+            <div class="tech-icons">
+              <i class="devicon-css3-plain formation-icon formation-icon-css"></i>
+            </div>
+            <h3 class="formation-subtitle">CSS GridLayout</h3>
+          </div>
+          <div class="information">
+            <p class="name">Origamid</p>
+            <p class="hours">5 hours</p>
           </div>
         </div>
-        <div class="formation__course">
-          <i class="devicon-javascript-plain formation__icon formation__icon-javascript"></i>
-          <h3 class="formation__course-title">JavaScript</h3>
-          <div class="formation__course-information">
-            <p class="formation__course-name">Origamid</p>
-            <p class="formation__course-hours">37 horas</p>
+
+        <div class="formation-course">
+          <div class="introduction-course">
+            <div class="tech-icons">
+              <i class="devicon-javascript-plain formation-icon formation-icon-javascript"></i>
+            </div>
+            <h3 class="formation-subtitle">JavaScript</h3>
+          </div>
+          <div class="information">
+            <p class="name">Origamid</p>
+            <p class="hours">37 hours</p>
           </div>
         </div>
-        <div class="formation__course">
-          <i class="devicon-html5-plain formation__icon formation__icon-html"></i>
-          <i class="devicon-css3-plain formation__icon formation__icon-css formation__icon-superimpose"></i>
-          <i
-            class="devicon-javascript-plain formation__icon formation__icon-javascript formation__icon-superimpose"></i>
-          <h3 class="formation__course-title">Aprenda a Programar com HTML, CSS & JS</h3>
-          <div class="formation__course-information">
-            <p class="formation__course-name">Rodrigo Branas</p>
-            <p class="formation__course-hours">12 horas</p>
+
+        <div class="formation-course">
+          <div class="introduction-course">
+            <div class="tech-icons">
+              <i class="devicon-html5-plain formation-icon formation-icon-html"></i>
+              <i class="devicon-css3-plain formation-icon formation-icon-css formation-icon-superimpose"></i>
+              <i
+                class="devicon-javascript-plain formation-icon formation-icon-javascript formation-icon-superimpose"></i>
+            </div>
+            <h3 class="formation-subtitle">Aprenda a Programar com HTML, CSS & JS</h3>
+          </div>
+          <div class="information">
+            <p class="name">Rodrigo Branas</p>
+            <p class="hours">12 hours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="main-titles">
+        <h1 class="title">Contact<mark class="point">.</mark></h1>
+      </div>
+      <div class="contact-content">
+        <p>Contact me or follow my social media</p>
+        <div class="links">
+          <div class="social">
+            <div class="social-name">
+              <img src="./assets/linkedin-ico.svg" alt="linkedin icon">
+              <span>Linkedin</span>
+            </div>
+            <a class="arrow-link" href="https://www.linkedin.com/in/kaiq-torres-de-souza/" target="_blank"
+              rel="noopener noreferrer"><img src="./assets/northeast-arrow.svg"
+                alt="Icon of an arrow pointing to the northeast"></a>
+          </div>
+          <div class="social">
+            <div class="social-name">
+              <img src="./assets/github-ico.svg" alt="github icon">
+              <span>GitHub</span>
+            </div>
+            <a class="arrow-link" href="https://github.com/kaiq-ts" target="_blank" rel="noopener noreferrer"><img
+                src="./assets/northeast-arrow.svg" alt="Icon of an arrow pointing to the northeast"></a>
+          </div>
+          <div class="social">
+            <div class="social-name">
+              <img src="./assets/instagram-ico.svg" alt="instagram icon">
+              <span>Instagram</span>
+            </div>
+            <a class="arrow-link" href="https://www.instagram.com/kaiqt.souza/profilecard/?igsh=MWp4NDEzeDF3NHd3Yw=="
+              target="_blank" rel="noopener noreferrer"><img src="./assets/northeast-arrow.svg"
+                alt="Icon of an arrow pointing to the northeast"></a>
+          </div>
+          <div class="social">
+            <div class="social-name">
+              <img src="./assets/email-ico.svg" alt="email icon">
+              <span>E-mail</span>
+            </div>
+            <a class="arrow-link" href="mailto:kaiqt.souza@gmail.com"><img src="./assets/northeast-arrow.svg"
+                alt="Icon of an arrow pointing to the northeast"></a>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer" id="contact">
-    <h1 class="footer__title title">Contato<mark class="introduction__point">.</mark></h1>
-    <div class="footer__content">
-      <div class="footer__contact">
-        <p class="footer__email">kaiqt.souza@gmail.com</p>
-        <p class="footer__phone">+55 (48) 9 9920-2701</p>
-        <p class="footer__perfil">@kaiq-ts</p>
-      </div>
-      <div class="footer__contact-information">
-        <p class="footer__text">Disponível para qualquer vaga de trabalho e projetos, entre em contato para termos
-          aquela conversa esperta. 😉</p>
-        <div class="footer__tech-logo">
-          <a class="footer__logo" href="https://www.linkedin.com/in/kaiq-torres-de-souza/" target="_blank"
-            rel="noopener noreferrer"><i class="devicon-linkedin-plain"></i></a>
-          <a class="footer__logo" href="https://github.com/kaiq-ts" target="_blank" rel="noopener noreferrer"><i
-              class="devicon-github-original"></i></a>
-        </div>
-      </div>
-    </div>
-    <p class="footer__copy">Kaiq Torres de Souza | ©2024 to ∞</p>
+  <footer id="footer">
+    <p>©2024 | Kaiq Torres de Souza</p>
   </footer>
 
-  <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
   <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     const lenis = new Lenis({ autoRaf: true });
+    let SwiperTop = new Swiper('.swiper--top', {
+      spaceBetween: 0,
+      centeredSlides: true,
+      speed: 1500,
+      autoplay: {
+        delay: 1,
+      },
+      loop: true,
+      slidesPerView: 'auto',
+      allowTouchMove: false,
+      disableOnInteraction: true
+    });
   </script>
   <script src="./script.js"></script>
-
 </body>
 
 </html>

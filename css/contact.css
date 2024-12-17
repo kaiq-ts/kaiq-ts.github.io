@@ -1,0 +1,32 @@
+.contact-content {
+  margin-top: 24px;
+
+  p {
+    text-align: center;
+  }
+}
+
+.links {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  transition: color 0.3s ease-in-out;
+
+  .social-name {
+    display: flex;
+    gap: 12px;
+  }
+}
+
+.social:hover {
+  border-color: var(--title-color-secondary);
+}

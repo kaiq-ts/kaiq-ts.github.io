@@ -1,75 +1,76 @@
-.formation__courses {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: clamp(16px, 4vw, 45px);
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 64px;
+.courses {
+  display: flex;
+  flex-direction: column;
 }
 
-.formation__course {
-  position: relative;
-  padding: 32px;
-  background: var(--color-dark-bg);
-  border-radius: var(--border-radius);
+.formation-course {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  max-height: 96px;
+  border-bottom: 1px solid var(--border-color);
 }
 
-.formation__icon {
+.formation-subtitle {
+  font: var(--title-secondary);
+}
+
+.introduction-course {
+  display: flex;
+  align-items: center;
+  padding-block: 32px;
+  gap: 24px;
+}
+
+.tech-icons {
+  display: inline-block;
+  line-height: 0;
+  font-size: 2.25rem;
   gap: 0;
-  font-size: clamp(1.5rem, 2vw + 0.75rem, 2.3125rem);
-  color: var(--color-white);
   position: relative;
 }
 
-.formation__icon-figma {
-  background: #A259FF;
-  border-radius: 50%;
+.formation-icon-figma {
+  background: #a259ff;
+  border-radius: 4px;
   padding: 13px;
 }
 
-.formation__icon-html {
-  background: #EF5B29;
-  border-radius: 50%;
+.formation-icon-html {
+  background: #ef5b29;
+  border-radius: 4px;
   padding: 13px;
   z-index: 1;
 }
 
-.formation__icon-css {
-  background: #1775BB;
-  border-radius: 50%;
+.formation-icon-css {
+  background: #1775bb;
+  border-radius: 4px;
   padding: 13px;
   z-index: 2;
 }
 
-.formation__icon-javascript {
-  background: #FCB040;
-  border-radius: 50%;
+.formation-icon-javascript {
+  background: #fcb040;
+  border-radius: 4px;
   padding: 13px;
   z-index: 3;
 }
 
-.formation__icon-superimpose {
+.formation-icon-superimpose {
   margin-left: -30px;
 }
 
-.formation__course-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--color-white);
-  margin-top: 32px;
-}
+.information {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 
-.formation__course-information {
-  margin-top: 24px;
-}
+  .name {
+    font: var(--text-md);
+  }
 
-.formation__course-name {
-  font-size: 1.123rem;
-  font-weight: 600;
-  color: var(--color-light-grey);
-}
-
-.formation__course-hours {
-  font-size: 1rem;
-  color: var(--color-light-grey);
+  .hours {
+    font: var(--text-sm);
+  }
 }

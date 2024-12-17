@@ -1,51 +1,33 @@
-.experience__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 64px;
-    width: 100%;
-    max-width: 80ch;
+.experience-list {
+  margin-top: 48px;
 }
 
-.experience__item {
-    margin-bottom: 32px;
-    width: 100%;
+.experience-item {
+  margin-top: 32px;
 }
 
-.experience__header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 24px;
-    gap: 20px;
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.experience__company-time {
-    font-size: clamp(0.75rem, 1vw + 0.2rem, 0.875rem);
-    font-weight: bold;
-    color: var(--color-dark-grey);
+.date {
+  color: var(--accent-color);
 }
 
-.experience__company {
-    font-size: clamp(1.25rem, 2vw + 0.5rem, 1.5rem);
-    font-weight: bold;
-    color: var(--color-dark-bg);
+.experience-subtitle {
+  color: var(--title-color-secondary);
 }
 
-.experience__description {
-    font-size: clamp(0.875rem, 1vw + 0.3rem, 1rem);
-    color: var(--color-dark-grey);
-    margin-left: 154px;
+.arrow-link {
+  display: flex;
+  align-items: center;
 }
 
-@media (max-width: 768px) {
-    .experience__list {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-    }
-
-    .experience__description {
-        margin-left: 0;
-    }
+.experience-description {
+  text-wrap: wrap;
+  margin-top: 24px;
+  margin-left: auto;
+  max-width: 920px;
 }
