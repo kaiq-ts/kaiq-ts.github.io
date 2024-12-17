@@ -54,7 +54,7 @@ nav,
 header,
 main,
 footer {
-  max-width: 1099px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -91,7 +91,7 @@ footer {
   text-align: center;
 }
 
-#myBtn {
+#back-to-top-button {
   display: none;
   position: fixed;
   font-size: 2rem;
@@ -109,6 +109,6 @@ footer {
   z-index: 99;
 }
 
-#myBtn:hover {
+#back-to-top-button:hover {
   background-color: var(--accent-color);
 }

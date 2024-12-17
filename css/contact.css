@@ -19,6 +19,8 @@
   border: 2px solid var(--border-color);
   border-radius: 8px;
   padding: 20px;
+  color: var(--text-color-primary);
+  text-decoration: none;
   transition: color 0.3s ease-in-out;
 
   .social-name {
