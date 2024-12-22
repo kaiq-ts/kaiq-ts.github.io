@@ -14,6 +14,11 @@
   text-align: left;
 }
 
+.about-pic {
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .icon-bg {
   position: absolute;
   bottom: 0;
