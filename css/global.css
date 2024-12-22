@@ -103,6 +103,7 @@ footer {
   right: 30px;
   border: none;
   border-radius: 999px;
+  line-height: 0;
   outline: none;
   cursor: pointer;
   padding: 15px;
