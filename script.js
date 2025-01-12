@@ -32,3 +32,10 @@ function topFunction() {
   body.scrollTop = 0;
   documentElement.scrollTop = 0;
 }
+
+const menuToggle = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu");
+
+menuToggle.addEventListener("click", () => {
+  menu.classList.toggle("active");
+});
