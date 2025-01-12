@@ -11,10 +11,6 @@
   border-bottom: 1px solid var(--border-color);
 }
 
-.formation-subtitle {
-  font: var(--title-secondary);
-}
-
 .introduction-course {
   display: flex;
   align-items: center;

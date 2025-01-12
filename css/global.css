@@ -29,8 +29,8 @@ html.lenis body {
   --border-color: #303240;
   --font-family: "Outfit", sans-serif;
   --logo: 700 2.5rem/120% var(--font-family);
-  --title: 700 4rem/120% var(--font-family);
-  --title-secondary: 700 1.5rem/130% var(--font-family);
+  --title: 700 120% var(--font-family);
+  --title-secondary: 700 130% var(--font-family);
   --paragraph-md: 1.125rem/160% var(--font-family);
   --text-sm-bold: 700 0.875rem/170% var(--font-family);
   --text-md: 500 1.125rem/120% var(--font-family);
@@ -69,10 +69,12 @@ img {
 
 h1 {
   font: var(--title);
+  font-size: clamp(2rem, 7vw, 4rem);
 }
 
 h3 {
   font: var(--title-secondary);
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
 }
 
 mark {
