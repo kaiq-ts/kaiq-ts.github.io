@@ -7,13 +7,11 @@
 }
 
 .profile {
-  max-width: 355px;
   position: relative;
 }
 
 .gradient-bg {
-  width: 302px;
-  height: 302px;
+  width: 100%;
   padding: 5px;
   background: linear-gradient(135deg, #89ddff, #5de4c7);
   border-radius: 4px;
@@ -25,7 +23,7 @@
 .dark-bg {
   background-color: var(--background-color, #000);
   width: 100%;
-  height: 100%;
+  padding: 5px;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -33,6 +31,7 @@
 }
 
 .profile-pic {
+  max-width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -62,5 +61,16 @@
 
   i {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 780px) {
+  header {
+    display: flex;
+    flex-direction: column;
+
+    & .profile-icon {
+      display: none;
+    }
   }
 }
