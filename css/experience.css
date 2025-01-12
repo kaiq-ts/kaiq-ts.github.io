@@ -12,8 +12,14 @@
   gap: 20px;
 }
 
+.enterprise {
+  display: flex;
+  gap: 18px;
+}
+
 .date {
   color: var(--accent-color);
+  font-size: clamp(1rem, 4vw, 1.2rem);
 }
 
 .experience-subtitle {
@@ -30,4 +36,20 @@
   margin-top: 24px;
   margin-left: auto;
   max-width: 920px;
+}
+
+@media (max-width: 560px) {
+  .experience-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+
+    & .date {
+      grid-row: 2;
+    }
+
+    & .enterprise {
+      grid-row: 1;
+    }
+  }
 }
