@@ -32,3 +32,10 @@
 .social:hover {
   border-color: var(--title-color-secondary);
 }
+
+@media (max-width: 480px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+}
