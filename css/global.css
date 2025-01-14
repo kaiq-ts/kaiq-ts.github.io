@@ -116,3 +116,20 @@ footer {
 #back-to-top-button:hover {
   background-color: var(--accent-color);
 }
+
+@media (max-width: 780px) {
+  section {
+    margin-top: 75px;
+  }
+
+  footer {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-titles {
+    display: flex;
+    justify-content: start;
+  }
+}
