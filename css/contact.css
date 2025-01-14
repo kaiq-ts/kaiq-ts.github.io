@@ -26,6 +26,10 @@
   .social-name {
     display: flex;
     gap: 12px;
+
+    & span {
+      text-wrap: nowrap;
+    }
   }
 }
 
